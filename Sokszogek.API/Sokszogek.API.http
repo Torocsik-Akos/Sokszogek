@@ -1,0 +1,8 @@
+@hostname = http://localhost:5243
+
+GET {{hostname}}/api/Teszt/Udvozles?nev=Bence
+Accept: application/json
+
+###
+
+GET {{hostname}}/api/Negyzet/Kerulet?OldalA=4
